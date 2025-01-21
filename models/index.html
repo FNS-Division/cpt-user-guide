@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Models - ITU Connectivity Planning Toolkit</title>
+        <title>Models - ITU Connectivity Planning Platform</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/fontawesome.min.css" rel="stylesheet">
         <link href="../css/brands.min.css" rel="stylesheet">
@@ -24,7 +24,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="..">ITU Connectivity Planning Toolkit</a>
+                <a class="navbar-brand" href="..">ITU Connectivity Planning Platform</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -168,7 +168,7 @@
 <p>The fiber cost model is summarized below. The CAPEX cost for each POI is dependent on the amount of fiber required to connect that school.</p>
 <p><img alt="fiber" src="../diagrams/fiber-cost-model.drawio.svg" /></p>
 <h2 id="cellular">Cellular</h2>
-<p>The cellular model relies on coverage analysis. In this version of the toolkit, coverage is determined by the distance from a cell tower. Each tower is assumed to provide coverage within a specified maximum radius, which is controlled by the model parameter Coverage radius around cell tower (meters).</p>
+<p>The cellular model relies on coverage analysis. In the current version of the platform, coverage is determined by the distance from a cell tower. Each tower is assumed to provide coverage within a specified maximum radius, which is controlled by the model parameter Coverage radius around cell tower (meters).</p>
 <h3 id="feasibility_1">Feasibility</h3>
 <p>Cellular is considered a feasible technology for a POI if it is within close enough distance to a cell site.</p>
 <h3 id="required-data-inputs_1">Required data inputs</h3>
@@ -294,7 +294,7 @@
 <p>The point-to-point cost model is summarized below. There are added complexities in this cost model due to the presence of additional physical infrastructure, such as retransmission towers and backhaul links - as well as additional one-time and annual license fees.</p>
 <p><img alt="p2p" src="../diagrams/p2p-cost-model.drawio.svg" /></p>
 <h2 id="satellite">Satellite</h2>
-<p>There is no specific analysis used to assess the feasibility of satellite connections. They are considered always feasible in this version of the toolkit.</p>
+<p>There is no specific analysis used to assess the feasibility of satellite connections. They are considered always feasible in this version of the platform.</p>
 <h3 id="feasibility_3">Feasibility</h3>
 <p>Satellite connections are always considered feasible.</p>
 <h3 id="required-data-inputs_3">Required data inputs</h3>
