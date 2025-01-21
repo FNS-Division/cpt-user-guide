@@ -1,4 +1,4 @@
-site_name: ITU Connectivity Planning Toolkit
+site_name: ITU Connectivity Planning Platform
 nav:
   - Home: index.md
   - Scenarios: scenarios.md
