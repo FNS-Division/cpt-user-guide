@@ -41,7 +41,7 @@ The fiber cost model is summarized below. The CAPEX cost for each POI is depende
 
 ## Cellular
 
-The cellular model relies on coverage analysis. In this version of the toolkit, coverage is determined by the distance from a cell tower. Each tower is assumed to provide coverage within a specified maximum radius, which is controlled by the model parameter Coverage radius around cell tower (meters).
+The cellular model relies on coverage analysis. In the current version of the platform, coverage is determined by the distance from a cell tower. Each tower is assumed to provide coverage within a specified maximum radius, which is controlled by the model parameter Coverage radius around cell tower (meters).
 
 ### Feasibility
 
@@ -109,7 +109,7 @@ The point-to-point cost model is summarized below. There are added complexities 
 
 ## Satellite
 
-There is no specific analysis used to assess the feasibility of satellite connections. They are considered always feasible in this version of the toolkit.
+There is no specific analysis used to assess the feasibility of satellite connections. They are considered always feasible in this version of the platform.
 
 ### Feasibility
 
